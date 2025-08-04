@@ -4,7 +4,45 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_valor",
+						"type": "uint256"
+					}
+				],
+				"name": "Escreva_Valor",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					}
+				],
+				"name": "Pegar_Valor",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +71,11 @@
 	},
 	"sources": {
 		"Introdução ao solidity/Mappings, visibilidade e deploy.sol": {
-			"keccak256": "0xfc88d7871c8e21b706ece89cedc5a2ddacbb54b921231541d8716fa0dc6a9955",
+			"keccak256": "0xd0d5af660bcecf4b56d324bc6f32ea37ba756083418d724539eee8c29b5c2c97",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://37b33a2658a375c376f31c22ebb9316e46683dc6847fb1d75b51fdc09cdbc32f",
-				"dweb:/ipfs/QmcciQc1dzudj1ZXZumMczUL7xs717HuoKee4uMsnLZBqU"
+				"bzz-raw://aa6c9cb59369be38dc86f6a550ca88f9dfa6a5cc34410ef61062483de06e249a",
+				"dweb:/ipfs/QmarirUTzS45rZm1ReXR2NuA3AQ6EfkhX8yU6YftfA8Smt"
 			]
 		}
 	},
