@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao solidity/Mappings, visibilidade e deploy.sol": "Heranca"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao solidity/Mappings, visibilidade e deploy.sol": {
+			"keccak256": "0xfc88d7871c8e21b706ece89cedc5a2ddacbb54b921231541d8716fa0dc6a9955",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://37b33a2658a375c376f31c22ebb9316e46683dc6847fb1d75b51fdc09cdbc32f",
+				"dweb:/ipfs/QmcciQc1dzudj1ZXZumMczUL7xs717HuoKee4uMsnLZBqU"
+			]
+		}
+	},
+	"version": 1
+}

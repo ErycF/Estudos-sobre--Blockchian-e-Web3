@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Numero_1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Numero_2",
+						"type": "uint256"
+					}
+				],
+				"name": "Colocar_Valores",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "SomaDosNumeros",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao solidity/Visibilidade e deploy.sol": "Soma"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao solidity/Visibilidade e deploy.sol": {
+			"keccak256": "0xaf30e5c8fdd1842cd7c6dee71f555b29eb80dc820bec5e2be817e07dc5bcf43d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0716c6a99bfbedfb23e92e0bb6bdf264094a2f5747868a12f690ec9ac2a9f369",
+				"dweb:/ipfs/QmUToqrm4jxdGagdQnZaQCbPE4co9wexesDEaHLnpZdL6h"
+			]
+		}
+	},
+	"version": 1
+}

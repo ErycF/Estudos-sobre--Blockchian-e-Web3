@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nomedousuario",
+						"type": "string"
+					}
+				],
+				"name": "Nome_do_Usuario",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "seunumero",
+						"type": "uint256"
+					}
+				],
+				"name": "SeuNumero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "nome",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numero",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao solidity/Compilação e introdução às funções.sol": "comeco"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao solidity/Compilação e introdução às funções.sol": {
+			"keccak256": "0x8290b6d50cf0c713b5247c8f9e5694317b3e5ae2ffd47e48c55dd11180f5167b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2278d1e0b4db85fa60de3eecb6d87d604d23b202dcddec070816f7e5cada6156",
+				"dweb:/ipfs/QmVTVTNDjWCWAfcMkzPFe4QvjhrAQtn8LjMS4GZ8g3nzWB"
+			]
+		}
+	},
+	"version": 1
+}
