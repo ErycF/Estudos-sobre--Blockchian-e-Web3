@@ -69,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Introdução ao solidity/Address, msg.sender, require e deploy.sol": "Heranca_2"
+			"Introdução ao Solidity/Address, msg.sender, require e deploy.sol": "Heranca_2"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -83,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Introdução ao solidity/Address, msg.sender, require e deploy.sol": {
-			"keccak256": "0xd14fd7671cad81cc3e175f8dee77bf1c26c5f5e70dd836a2b387f584bf6ae6e4",
+		"Introdução ao Solidity/Address, msg.sender, require e deploy.sol": {
+			"keccak256": "0x9fc0ef40386e39088332a7a72356d61040750df034bc5766b429b47f3d70109f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://698d5393cbbd7658ac65b3affa19d681102ef80f93d9dc91bf2b0fa0f21d6c22",
-				"dweb:/ipfs/QmP8p3p4x6J65FDR5i1G6q4XZgRAM9x3h2nvuys4PDWmgZ"
+				"bzz-raw://7765c7ee447ccfeec033e2eb4d64cfc32912cad62e913e0f764e20dcbb296fdd",
+				"dweb:/ipfs/QmSz3DCTUXCDeCpPfxBA3wbHM4u2daJYBT2mETNTVeqp6J"
 			]
 		}
 	},
