@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "Coloque_o_Nome",
+						"type": "string"
+					}
+				],
+				"name": "Busca_idade",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_idade",
+						"type": "uint256"
+					}
+				],
+				"name": "Coloque_Seu_Nome_e_idade",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao solidity/Address, msg.sender, require e deploy.sol": "Heranca_2"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao solidity/Address, msg.sender, require e deploy.sol": {
+			"keccak256": "0xd14fd7671cad81cc3e175f8dee77bf1c26c5f5e70dd836a2b387f584bf6ae6e4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://698d5393cbbd7658ac65b3affa19d681102ef80f93d9dc91bf2b0fa0f21d6c22",
+				"dweb:/ipfs/QmP8p3p4x6J65FDR5i1G6q4XZgRAM9x3h2nvuys4PDWmgZ"
+			]
+		}
+	},
+	"version": 1
+}
