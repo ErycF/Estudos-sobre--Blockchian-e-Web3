@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "nova_forca",
+						"type": "uint256"
+					}
+				],
+				"name": "Altera_Forca",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_forca",
+						"type": "uint256"
+					}
+				],
+				"name": "Criar_Monstros",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "Pegar_Monstro",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Structure, arrays e a storage.sol": "ContratoMostro"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Structure, arrays e a storage.sol": {
+			"keccak256": "0x8da60a2af15a41572d4b5b1d73134fecf72673368a3ec622929a647ef65463fb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b0ecaa9a1b1e2db2ca8fff5eb2ee672e1efdd5ee886aafa80f32401fc5e1ec2",
+				"dweb:/ipfs/QmUnwsyBZpeKbMX4nYpBj3RjyQbjRoWzUb1uQzozDnSysp"
+			]
+		}
+	},
+	"version": 1
+}
