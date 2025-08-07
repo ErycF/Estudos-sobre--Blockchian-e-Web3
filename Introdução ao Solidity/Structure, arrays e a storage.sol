@@ -8,7 +8,14 @@ contract ContratoMostro{
         uint forca;
     }
 
+    struct Arma{
+        string nome;
+        uint poder;
+    }
+
     Monstro[] private monstros;
+
+    Arma[] internal armas;
 
     function Criar_Monstros(string memory _nome, uint _forca) external {
         Monstro memory Novo_Monstro;
@@ -27,4 +34,16 @@ contract ContratoMostro{
         Monstro storage monstro = monstros[_id];
         monstro.forca = nova_forca;
     }
+
+    function Criar_Arma(string memory _nome, uint _poder) public {
+        Arma memory Nova_Armas;
+        Nova_Armas.nome = _nome;
+        Nova_Armas.poder = _poder;
+        armas.push(Nova_Armas);
+    }
+
+    function Busca_Arma(uint _id) public view returns (string memory, uint){
+        Arma storage arma = armas[_id]; 
+        return (arma.nome, arma.poder);
+    } 
 }

@@ -26,6 +26,48 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "Busca_Arma",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_poder",
+						"type": "uint256"
+					}
+				],
+				"name": "Criar_Arma",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "string",
 						"name": "_nome",
 						"type": "string"
@@ -94,11 +136,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Structure, arrays e a storage.sol": {
-			"keccak256": "0x8da60a2af15a41572d4b5b1d73134fecf72673368a3ec622929a647ef65463fb",
+			"keccak256": "0xdb971ff6f217d76c13c3b828ca87e95a7c63689b8ac8290180ff758fab29e730",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5b0ecaa9a1b1e2db2ca8fff5eb2ee672e1efdd5ee886aafa80f32401fc5e1ec2",
-				"dweb:/ipfs/QmUnwsyBZpeKbMX4nYpBj3RjyQbjRoWzUb1uQzozDnSysp"
+				"bzz-raw://e22ed544c898edf18fa4d511814efc731174cf26cbcbdc33be7fc45c10a2fde1",
+				"dweb:/ipfs/QmYrW6KRY8jvmnCUAbagYHteZqyBEYNAm8t4rAXuD3K9CS"
 			]
 		}
 	},
