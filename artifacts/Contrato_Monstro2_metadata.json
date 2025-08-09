@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					}
+				],
+				"name": "Criar_Monstro",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "monstros",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nome",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "forca",
+						"type": "uint256"
+					},
+					{
+						"internalType": "enum Contrato_Monstro2.TipoMonstro",
+						"name": "tipo",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "N_d_Modulo",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Enumeráveis e estrutura de um smart contract.sol": "Contrato_Monstro2"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Enumeráveis e estrutura de um smart contract.sol": {
+			"keccak256": "0x056e835703ac148604e8d0e83cd73ff23efa6e458a2027948fa6faab6a09cccb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3af67767af0a2d2fa1e037f5b75e52eb4e344c27dd52bdb3a8242ec05dfb92b7",
+				"dweb:/ipfs/QmXKjQBipG6BUmErJ7iJBaMoVLaZb6Tx2ihAhsXx1Phxsj"
+			]
+		}
+	},
+	"version": 1
+}

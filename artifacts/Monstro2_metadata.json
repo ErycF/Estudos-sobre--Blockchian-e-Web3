@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Enumeráveis e estrutura de um smart contract.sol": "Monstro2"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Enumeráveis e estrutura de um smart contract.sol": {
+			"keccak256": "0xf7bda2c98dd75483dd9175a688aad1a6ca3b8aac611f4b44a680c24d33e30b76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c7b48a6b57be4ea46ae891c644de55ec7c5736f5d06fc3d90b0ff72fb3f8354f",
+				"dweb:/ipfs/Qmc81XLdwyBfL8znH1awH6SnVcdcS7HxDRLzuWszQ1Hx1q"
+			]
+		}
+	},
+	"version": 1
+}
