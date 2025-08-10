@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.7.6+commit.7338295f"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -45,7 +45,7 @@
 		"compilationTarget": {
 			"Introdução ao Solidity/Função pura, overflow e ERC20.sol": "Matematica"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"Introdução ao Solidity/Função pura, overflow e ERC20.sol": {
-			"keccak256": "0xfa1390bb62d6b9cd1c19816a905d78d26669c99c6a58084a4e5fcb8abae90663",
+			"keccak256": "0xc6cb6f961d5068e641b84a06373e2128165c79f0306b028de81dcf590dc4bf03",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://311106c2edfd3d4d286bc9744259a08b09533c2a047335d48f181f18ec608025",
-				"dweb:/ipfs/QmebJbX1T3BExxN9i6APheCeHFGMFGyC7dK6usw3dipeUK"
+				"bzz-raw://c754fa124e774ae84e07730947cf085692b95c74c7b530d72c1147803b29371e",
+				"dweb:/ipfs/Qmf5ZbzdizdYiP8exo8P7CM6zmSqy2WHv9vbFxi2vNUP4T"
 			]
 		}
 	},
