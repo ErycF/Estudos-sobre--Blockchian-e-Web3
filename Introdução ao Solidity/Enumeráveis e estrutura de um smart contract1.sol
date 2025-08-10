@@ -37,7 +37,7 @@ contract Contrato_Monstro2{
         /* A blockchain não consegue gerar números randonicos, pois, a blockchain
         não esta em um computador só, ela esta distribuída em varíos outros
         computadores. Por isso, que é impossível 2 computadores gerarem 2 números
-        randomicos.*/
+        randomicos. */
 
         if( block.timestamp % 4 == 0 ){ Novo_Monstro.tipo = TipoMonstro.Raro;}
         else if( block.timestamp % 4 == 1 ){ Novo_Monstro.tipo = TipoMonstro.Normal;}

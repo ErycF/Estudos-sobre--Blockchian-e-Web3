@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_x",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_y",
+						"type": "uint256"
+					}
+				],
+				"name": "Soma",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Introdução ao Solidity/Função pura, overflow e ERC20.sol": "Matematica"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Introdução ao Solidity/Função pura, overflow e ERC20.sol": {
+			"keccak256": "0xfa1390bb62d6b9cd1c19816a905d78d26669c99c6a58084a4e5fcb8abae90663",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://311106c2edfd3d4d286bc9744259a08b09533c2a047335d48f181f18ec608025",
+				"dweb:/ipfs/QmebJbX1T3BExxN9i6APheCeHFGMFGyC7dK6usw3dipeUK"
+			]
+		}
+	},
+	"version": 1
+}
